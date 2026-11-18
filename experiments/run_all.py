@@ -1,7 +1,7 @@
 """Run every experiment for the paper and write CSV/JSON outputs plus the figure.
 
 Usage:
-  python experiments/run_all.py --repo /path/to/audit-toolkit --v2 /path/to/v2-mirror --out results
+  python experiments/run_all.py --repo /path/to/xfairmed-toolkit --v2 /path/to/v2-mirror --out results
 
 Subjects
   real_v2           current XFAIR-MED (4 models, 5x5 nested CV); aggregate outputs only
@@ -187,7 +187,10 @@ def plot_sweep(rows, calib, out):
     import matplotlib
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
-    plt.rcParams.update({"font.size": 7, "font.family": "serif"})
+    # TrueType (Type 42) fonts: IEEE PDF eXpress rejects the Type 3 fonts matplotlib embeds by default.
+    plt.rcParams.update({"font.size": 7, "font.family": "serif",
+                         "font.serif": ["Liberation Serif", "Times New Roman", "Times", "DejaVu Serif"],
+                         "mathtext.fontset": "stix", "pdf.fonttype": 42, "ps.fonttype": 42})
     fig, axes = plt.subplots(1, 2, figsize=(3.5, 2.0), sharey=True)
     styles = {"LR": "-", "RF": "--", "XGB": "-.", "MLP": ":"}
     for ax, pair in zip(axes, PAIR_NAMES):
