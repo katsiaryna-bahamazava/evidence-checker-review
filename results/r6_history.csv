@@ -1,0 +1,25 @@
+commit,date,subject,version,model,scope,prior_decisions,carried_over,reopened_stale,new_unresolved,orphaned
+anon-commit-3,2026-07-08,toolkit change (anon-commit-3),v1,LR,value,7,6,0,0,1
+anon-commit-3,2026-07-08,toolkit change (anon-commit-3),v1,LR,artifact,7,6,0,0,1
+anon-commit-1,2026-07-09,toolkit change (anon-commit-1),v1,LR,value,6,3,0,3,3
+anon-commit-1,2026-07-09,toolkit change (anon-commit-1),v1,LR,artifact,6,3,0,3,3
+anon-commit-5,2026-07-11,toolkit change (anon-commit-5),v1,LR,value,6,6,0,0,0
+anon-commit-5,2026-07-11,toolkit change (anon-commit-5),v1,LR,artifact,6,6,0,0,0
+anon-commit-5,2026-07-11,toolkit change (anon-commit-5),v1,RF,value,11,6,0,0,5
+anon-commit-5,2026-07-11,toolkit change (anon-commit-5),v1,RF,artifact,11,6,0,0,5
+anon-commit-2,2026-07-11,toolkit change (anon-commit-2),v1,LR,value,6,6,0,0,0
+anon-commit-2,2026-07-11,toolkit change (anon-commit-2),v1,LR,artifact,6,6,0,0,0
+anon-commit-2,2026-07-11,toolkit change (anon-commit-2),v1,RF,value,6,6,0,0,0
+anon-commit-2,2026-07-11,toolkit change (anon-commit-2),v1,RF,artifact,6,6,0,0,0
+anon-commit-7,2026-07-11,toolkit change (anon-commit-7),v1,LR,value,6,6,0,6,0
+anon-commit-7,2026-07-11,toolkit change (anon-commit-7),v1,LR,artifact,6,3,3,6,0
+anon-commit-7,2026-07-11,toolkit change (anon-commit-7),v1,RF,value,6,6,0,6,0
+anon-commit-7,2026-07-11,toolkit change (anon-commit-7),v1,RF,artifact,6,3,3,6,0
+anon-commit-7,2026-07-11,toolkit change (anon-commit-7),v1,MLP,value,6,6,0,6,0
+anon-commit-7,2026-07-11,toolkit change (anon-commit-7),v1,MLP,artifact,6,3,3,6,0
+anon-commit-4,2026-10-28,toolkit change (anon-commit-4),v2,LR,value,12,0,9,2,3
+anon-commit-4,2026-10-28,toolkit change (anon-commit-4),v2,LR,artifact,12,0,9,2,3
+anon-commit-4,2026-10-28,toolkit change (anon-commit-4),v2,RF,value,12,0,9,2,3
+anon-commit-4,2026-10-28,toolkit change (anon-commit-4),v2,RF,artifact,12,0,9,2,3
+anon-commit-4,2026-10-28,toolkit change (anon-commit-4),v2,MLP,value,12,0,9,2,3
+anon-commit-4,2026-10-28,toolkit change (anon-commit-4),v2,MLP,artifact,12,0,9,2,3

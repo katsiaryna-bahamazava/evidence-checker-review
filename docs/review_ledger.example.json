@@ -1,0 +1,14 @@
+{
+  "entries": [
+    {
+      "finding_id": "R2-ad434d3194",
+      "evidence_fp": "e0c7c8f86af2",
+      "model": "xgboost",
+      "rule": "R2",
+      "assignee": "Data steward",
+      "decision": "accepted_limitation",
+      "rationale": "TP53-mutant has 8 ILC cases (floor 10); reported as not covered by model parity until more cases are available.",
+      "timestamp": "2026-11-18T10:00:00Z"
+    }
+  ]
+}
